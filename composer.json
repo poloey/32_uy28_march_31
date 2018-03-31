@@ -1,0 +1,10 @@
+{
+    "require": {
+        "illuminate/database": "^5.6",
+        "illuminate/events": "^5.6"
+    },
+    "autoload": {
+      "files": ["db.php"],
+      "classmap": ["models"]
+    }
+}
